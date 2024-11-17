@@ -1,3 +1,5 @@
+#!/usr/bin/python3
+
 # A simple code that saves money
 
 # Initialize saving process
