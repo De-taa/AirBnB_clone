@@ -1,36 +1,29 @@
 #!/usr/bin/python3
 
-def fizzbuzz_plus():
-    while True:
-        # Step 1: Input Validation
-        try:
-            start = int(input("Enter the start number: "))
-            end = int(input("Enter the end number: "))
-            if start > end:
-                print("Start number must be less than or equal to the end number. Please try again.")
-                continue
-        except ValueError:
-            print("Invalid input! Please enter valid integers.")
-            continue
+# A simple code that saves money
 
-        # Step 2: FizzBuzz Logic
-        print("\nFizzBuzz Results:")
-        for num in range(start, end + 1):
-            if num % 3 == 0 and num % 5 == 0:
-                print("FizzBuzz")
-            elif num % 3 == 0:
-                print("Fizz")
-            elif num % 5 == 0:
-                print("Buzz")
-            else:
-                print(num)
+# Initialize saving process
+savings = 20000
+print(f"My savings: #{savings:,}")
 
-        # Step 3: Repeat Option
-        repeat = input("\nDo you want to run the program again? (yes/no): ").strip().lower()
-        if repeat != 'yes':
-            print("Goodbye!")
-            break
+# Ask the user for the amount to deposit
+deposit = int(input("Enter amount to deposit: #"))
 
+# Add deposit to savings
+savings += deposit
+print(f"My savings: #{savings:,}")
 
-# Run the program
-fizzbuzz_plus()
+# Ask the user if they'd like to deposit more
+another = input("Would you like to make another deposit? (yes/no): ")
+
+if another == "yes":
+    # Ask the user for amount
+    deposit = int(input("Enter amount to deposit: #"))
+
+    # Add deposit to savings
+    savings += deposit
+    print(f"My savings: #{savings:,}")
+else:
+    print("Thank you for saving with us!")
+
+# Blank line at the end
