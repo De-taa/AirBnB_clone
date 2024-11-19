@@ -25,5 +25,3 @@ if another == "yes":
     print(f"My savings: #{savings:,}")
 else:
     print("Thank you for saving with us!")
-
-# Blank line at the end
