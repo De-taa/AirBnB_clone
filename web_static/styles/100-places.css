@@ -1,0 +1,51 @@
+.places h1 {
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+article {
+    border: 1px solid #DDDDDD;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.price_by_night {
+    font-size: 16px;
+    color: #FF5A5F;
+    float: right;
+}
+
+.information {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0;
+}
+
+.amenities, .reviews {
+    margin-top: 40px;
+}
+
+.amenities h2, .reviews h2 {
+    font-size: 16px;
+    border-bottom: 1px solid #DDDDDD;
+    padding-bottom: 5px;
+}
+
+.amenities ul, .reviews ul {
+    list-style: none;
+    padding: 0;
+}
+
+.amenities ul li, .reviews ul li {
+    margin: 10px 0;
+}
+
+.reviews h3 {
+    font-size: 14px;
+    margin: 5px 0;
+}
+
+.reviews p {
+    font-size: 12px;
+    color: #555555;
+}
