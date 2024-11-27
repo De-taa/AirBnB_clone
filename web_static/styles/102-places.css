@@ -1,0 +1,35 @@
+.places {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: space-between;
+}
+
+.places h1 {
+    width: 100%;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.places article {
+    display: flex;
+    flex-direction: column;
+    width: calc(33.333% - 20px);
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+}
+
+@media (max-width: 768px) {
+    .places article {
+        width: calc(50% - 10px);
+    }
+}
+
+@media (max-width: 480px) {
+    .places article {
+        width: 100%;
+    }
+}
