@@ -1,0 +1,48 @@
+.places {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: space-between;
+}
+
+.places h1 {
+    width: 100%;
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.places article {
+    display: flex;
+    flex-direction: column;
+    width: calc(33.333% - 20px);
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+}
+
+.places article h2 {
+    font-size: 18px;
+    color: #333;
+}
+
+.price_by_night {
+    font-size: 16px;
+    font-weight: bold;
+    color: #FF5A5F;
+    margin-bottom: 15px;
+}
+
+.information {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+    color: #555;
+}
+
+.amenities ul, .reviews ul {
+    list-style: none;
+    padding: 0;
+}

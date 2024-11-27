@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="styles/103-common.css"/>
+    <link rel="stylesheet" type="text/css" href="styles/103-header.css"/>
+    <link rel="stylesheet" type="text/css" href="styles/103-footer.css"/>
+    <link rel="stylesheet" type="text/css" href="styles/103-filters.css"/>
+    <link rel="stylesheet" type="text/css" href="styles/103-places.css"/>
+    <link rel="icon" href="images/icon.png"/>
+    <title>Airbnb Clone</title>
+</head>
+<body>
+    <header role="banner">
+        <div class="logo">Airbnb Clone</div>
+        <form class="search-bar" role="search">
+            <label for="search-input" class="sr-only">Search for places</label>
+            <input id="search-input" type="text" placeholder="Search for places" aria-label="Search for places">
+            <button type="submit" aria-label="Search">Search</button>
+        </form>
+    </header>
+    <main role="main" class="container">
+        <section class="filters" aria-labelledby="filters-heading">
+            <h2 id="filters-heading">Filters</h2>
+        </section>
+        <section class="places" aria-labelledby="places-heading">
+            <h1 id="places-heading">Places</h1>
+            <article>
+                <h2>My Home</h2>
+                <div class="price_by_night" aria-label="Price per night">
+                    <p>$80</p>
+                </div>
+                <div class="information">
+                    <div class="max_guest">
+                        <p>2 guests</p>
+                    </div>
+                    <div class="number_rooms">
+                        <p>1 bedroom</p>
+                    </div>
+                    <div class="number_bathrooms">
+                        <p>2 bathrooms</p>
+                    </div>
+                </div>
+                <div class="user">
+                    <p><b>Owner:</b> Dev tYnOe</p>
+                </div>
+                <div class="description">
+                    <p>My Home description...</p>
+                </div>
+                <div class="amenities">
+                    <h3>Amenities</h3>
+                    <ul>
+                        <li>TV</li>
+                        <li>Wifi</li>
+                        <li>Air Conditioning</li>
+                        <li>Kitchen</li>
+                    </ul>
+                </div>
+                <div class="reviews">
+                    <h3>Reviews</h3>
+                    <ul>
+                        <li>
+                            <h4>From Pelumi Awobodu on November 24, 2024</h4>
+                            <p>The place was fantastic! Very clean and close to everything.</p>
+                        </li>
+                    </ul>
+                </div>
+            </article>
+        </section>
+    </main>
+    <footer role="contentinfo">
+        <p>Best School</p>
+    </footer>
+</body>
+</html>
